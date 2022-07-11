@@ -1,0 +1,31 @@
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.decode-row {
+  margin: 10px;
+  padding: 10px;
+}
+.decode-row-pegs {
+  margin: 0 10px;
+}
+.decode-row-activated {
+  border: #000 1px solid;
+}
+.decode-row-disabled label {
+  pointer-events: none;
+  opacity: 0.5;
+}
+.hints {
+  margin: 0 10px;
+  width: 45px;
+  flex-wrap: wrap;
+}
+.hint {
+  margin: 5px;
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+  border: #000 1px solid;
+}

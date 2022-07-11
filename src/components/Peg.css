@@ -1,0 +1,18 @@
+.peg input {
+  display: none;
+}
+.peg label {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: -1px 4px 0 0;
+  vertical-align: middle;
+  cursor: pointer;
+  border: #eaebe9 2px solid;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+.peg {
+  margin: 5px 0;
+}
