@@ -41,6 +41,20 @@ export default function App() {
         .
       </p>
       <MastermindBoard />
+      <div>
+        <p>
+          ~developed by{" "}
+          <a
+            href="https://github.com/sudhirraj31/mastermind-game"
+            target="_blank"
+            rel="noreferrer"
+            style={{ cursor: "pointer" }}
+          >
+            {" "}
+            Sudhir Raj
+          </a>
+        </p>
+      </div>
     </div>
   );
 }
